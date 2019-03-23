@@ -1,0 +1,14 @@
+spring:
+  application:
+      name:  Config Server
+  cloud:
+   config:
+    server:
+     native:
+      searchLocations:=file://H:/D_19_06_18/configserver    
+      
+      
+server:
+ port: 9090
+ 
+       
